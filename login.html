@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <!-- CSS Section -->
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./node_modules/@fortawesome/fontawesome-free/css/all.min.css">
+    <link rel="stylesheet" href="./Content/app.css">
+</head>
+<body>
+    <header>
+        
+    </header>
+
+    <!-- Main Content -->
+    <main class="container" id="mainContent">
+        <div class="row">
+            <div class="offset-md-3 col-md-6 col-sm-12">
+                  <div class="login" id="contentArea">
+                      <h1 class="display-4">Login</h1>
+                      <form id="loginForm" novalidate>
+                        
+                        <div class="form-group">
+                          <div class="input-group mb-2">
+                            <span class="input-group-addon">
+                              <i class="fa fa-user">
+                              </i>
+                            </span>
+                            <input id="contactName" type="text" class="form-control" name="userName"  required
+                            value="" placeholder="Enter your username">
+                          </div>
+                         
+                        </div>
+  
+                        <div class="form-group">
+                          <div class="input-group mb-2">
+                            <span class="input-group-addon">
+                              <i class="fa fa-lock">
+                              </i>
+                            </span>
+                            <input id="password" type="password" class="form-control" name="password"  required
+                            value="" placeholder="Enter your password">
+                          </div>
+                         
+                        </div>                                        
+                        <div class="text-right">
+                          <button id="submitButton" type="submit" class="btn btn-primary btn-lg">Login</button>
+                        </div>
+                      </form>
+                     
+                  </div>
+                  <p class="text-center text-muted small">
+                    Don't have an account? 
+                    <a href="register.html">Register Here!</a>
+                  </p>
+            </div>
+        </div>
+    </main>
+    
+    <!-- Scripting Section -->
+    <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+    <script src="./Scripts/app.js"></script>
+</body>
+</html>
